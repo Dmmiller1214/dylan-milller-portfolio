@@ -48,7 +48,7 @@ export const profile: Profile = {
   valueProposition:
     "I’m Dylan Miller, a frontend developer passionate about turning ideas into engaging, easy-to-use websites. I’m excited to launch my business, collaborate with clients, and build digital experiences that help bring their visions to life.",
   location: null,
-  siteUrl: "https://dmmiller1214.github.io",
+ siteUrl: "https://dylan-milller-portfolio.vercel.app",
 };
 
 export type AboutContent = {
