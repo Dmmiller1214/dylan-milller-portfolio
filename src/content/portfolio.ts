@@ -46,9 +46,9 @@ export const profile: Profile = {
   role: "Frontend Developer",
   headline: "Thoughtful design. Engaging web experiences.",
   valueProposition:
-    "I’m Dylan Miller, a frontend developer passionate about turning ideas into engaging, easy-to-use websites. I’m excited to launch my business, collaborate with clients, and build digital experiences that help bring their visions to life.",
+    "I’m Dylan Miller, a frontend developer building responsive web interfaces with React, Next.js, and TypeScript. I’m looking for a junior frontend role where I can contribute to a product team and continue growing through hands-on development.",
   location: null,
- siteUrl: "https://dylan-milller-portfolio.vercel.app",
+  siteUrl: "https://dylan-milller-portfolio.vercel.app",
 };
 
 export type AboutContent = {
@@ -63,7 +63,7 @@ export type AboutContent = {
 export const about: AboutContent = {
   paragraphs: [
     "I enjoy combining design and development to create websites that look polished and feel intuitive. My projects explore interactive catalogs, business websites, animated interfaces, membership platforms, and AI-powered experiences.",
-    "I’m eager to grow as a developer and business owner, take on new challenges, and create meaningful work for clients.",
+    "I’m looking to join a team where I can contribute to real projects, learn from experienced developers, and strengthen my frontend development skills.",
   ],
   interests: [],
   portrait: null,
@@ -156,7 +156,12 @@ export type Project = {
    * Path under /public, or `null` to render the labelled placeholder frame.
    * Supply a 16:10 image so the frame never shifts while loading.
    */
-  screenshot: { src: string; alt: string; width: number; height: number } | null;
+  screenshot: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  } | null;
   links: ProjectLink;
   detail: {
     problem: string | null;
@@ -323,7 +328,7 @@ export const contact: ContactContent = {
   linkedin: "https://www.linkedin.com/in/dylan-miller-8a91b1440/",
   elsewhere: [],
   resumeUrl: null,
-  availability: null,
+  availability: "Open to junior frontend developer opportunities.",
 };
 
 export const navigation = [

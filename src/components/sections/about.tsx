@@ -74,11 +74,6 @@ export function About() {
                   />
                 )}
               </div>
-              <figcaption className="text-graphite/75 mt-12 text-xs leading-relaxed sm:mt-14">
-                {about.portrait
-                  ? about.portrait.alt
-                  : "Marble relief, used here as a stand-in until a portrait is supplied."}
-              </figcaption>
             </figure>
           </Reveal>
         </div>
