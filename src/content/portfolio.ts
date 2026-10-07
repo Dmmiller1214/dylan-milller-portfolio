@@ -184,7 +184,7 @@ export const projects: Project[] = [
     name: "Build Like a Pro — Minecraft Mob Catalog",
     description:
       "An interactive catalog that helps Minecraft players find information about the game’s mobs. The project brings mob details together in one place, making it easier to explore and learn about the creatures found throughout Minecraft.",
-    technologies: [],
+    technologies: technologies: ["React", "JavaScript", "CSS", "Vite", "React Router"],
     role: null,
     screenshot: shot(
       "/projects/minecraft-mob-catalog.webp",
@@ -192,7 +192,7 @@ export const projects: Project[] = [
     ),
     links: {
       live: "https://dmmiller1214.github.io/Build-like-a-pro/",
-      source: null,
+      source: source: "https://github.com/Dmmiller1214/Build-like-a-pro",
     },
     detail: {
       problem: null,
@@ -207,7 +207,7 @@ export const projects: Project[] = [
     name: "Business Website Clone",
     description:
       "A frontend project recreating an existing business website as a development exercise. The project focuses on translating a reference design into a working interface, practicing page structure, layout, and visual consistency.",
-    technologies: [],
+    technologies: technologies: ["HTML", "CSS", "JavaScript"],
     role: null,
     screenshot: shot(
       "/projects/business-website-clone.webp",
@@ -215,7 +215,7 @@ export const projects: Project[] = [
     ),
     links: {
       live: "https://dmmiller1214.github.io/Clone-Website/",
-      source: null,
+      source: source: "https://github.com/Dmmiller1214/Clone-Website",
     },
     detail: {
       problem: null,
