@@ -327,7 +327,7 @@ export const contact: ContactContent = {
   github: "https://github.com/Dmmiller1214",
   linkedin: "https://www.linkedin.com/in/dylan-miller-8a91b1440/",
   elsewhere: [],
-  resumeUrl: null,
+  resumeUrl: "/dylan-miller-resume.pdf",
   availability: "Open to junior frontend developer opportunities.",
 };
 
