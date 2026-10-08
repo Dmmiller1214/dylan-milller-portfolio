@@ -202,7 +202,11 @@ export const projects: Project[] = [
     detail: {
       problem: null,
       approach: null,
-      keyFeatures: [],
+      keyFeatures: [
+        "Search mobs by name and filter by type.",
+        "Sort mobs by health and open individual details.",
+        "Manually checked search, filtering, sorting, and details on desktop and phone.",
+      ],
       challenges: [],
       results: [],
     },
@@ -278,7 +282,11 @@ export const projects: Project[] = [
     detail: {
       problem: null,
       approach: null,
-      keyFeatures: [],
+      keyFeatures: [
+        "Guest login, book search, and individual book details.",
+        "Audio playback and a personal library with save and remove controls.",
+        "Manually verified guest login, search, book details, audio playback, and saving/removing books.",
+      ],
       challenges: [],
       results: [],
     },
@@ -301,7 +309,12 @@ export const projects: Project[] = [
     detail: {
       problem: null,
       approach: null,
-      keyFeatures: [],
+      keyFeatures: [
+        "Multi-step name and location entry with API submission.",
+        "Image upload and camera capture with a retake option.",
+        "API results display with selection and reset controls.",
+        "Manually tested the complete flow on desktop and phone.",
+      ],
       challenges: [],
       results: [],
     },
