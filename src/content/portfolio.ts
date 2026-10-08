@@ -235,7 +235,7 @@ export const projects: Project[] = [
     name: "NFT Website Concept",
     description:
       "A simulated NFT website featuring smooth animations and an engaging visual presentation. The project explores how motion and interface design can work together to create a polished browsing experience.",
-    technologies: [],
+    technologies: ["React", "JavaScript", "CSS", "Bootstrap", "React Router"],
     role: null,
     screenshot: shot(
       "/projects/nft-website-concept.webp",
@@ -243,7 +243,7 @@ export const projects: Project[] = [
     ),
     links: {
       live: "https://dylan-internship.vercel.app/",
-      source: null,
+      source: "https://github.com/Dmmiller1214/Dylan-internship",
     },
     detail: {
       problem: null,
@@ -258,7 +258,14 @@ export const projects: Project[] = [
     name: "Summarist — Book Membership Platform",
     description:
       "A book website with user authentication and an integrated payment system for purchasing different membership plans. The project brings together account access and subscription purchasing to demonstrate a more complete web application experience.",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Firebase", "Stripe"],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Firebase",
+      "Stripe",
+    ],
     role: null,
     screenshot: shot(
       "/projects/summarist.webp",
