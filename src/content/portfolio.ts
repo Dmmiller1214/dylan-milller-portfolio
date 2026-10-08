@@ -288,7 +288,7 @@ export const projects: Project[] = [
     name: "Skinstric — AI Skin Analysis Interface",
     description:
       "An AI-powered skincare concept that uses a facial scan to generate estimates about a user’s background. The project presents an interactive experience around image analysis, guiding users through the scan and its AI-generated results. Those results are estimates produced by the model — not medical advice, and not a verified identification of anyone.",
-    technologies: [],
+    technologies: ["React", "JavaScript", "CSS", "Vite", "React Router"],
     role: null,
     screenshot: shot(
       "/projects/skinstric.webp",
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     ),
     links: {
       live: "https://skinstric-lime.vercel.app/",
-      source: null,
+      source: "https://github.com/Dmmiller1214/skinstric",
     },
     detail: {
       problem: null,
